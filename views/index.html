@@ -1,0 +1,523 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href="https://i.ibb.co/4SYLC0D/efed688e167da77cc9d2660ed292517e.jpg" rel="shortcut icon" type="image/png">
+  <title>Jepri Barus Asw</title>
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/ruang-admin.min.css" rel="stylesheet">
+<script src="https://static.cbox.ws/embed/1.js" async></script>
+</head>
+<body id="page-top" onload="getvisitor();">
+  <div id="wrapper">
+    <!-- Sidebar -->
+    <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="https://i.ibb.co/4SYLC0D/efed688e167da77cc9d2660ed292517e.jpg">
+        <div class="sidebar-brand-icon">
+        	<img src="img/logo/logo2.png">
+        </div>
+        <div class="sidebar-brand-text mx-3">JEPRI BRS</div>
+      </a>
+      <hr class="sidebar-divider my-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="/api">
+          <i class="fas fa-fw fa-code"></i>
+          <span>Beranda</span></a>
+      </li>
+      <hr class="sidebar-divider">
+      <div class="sidebar-heading">
+        REST API
+      </div>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="api.html#" data-toggle="collapse" data-target="#collapseBootstrap"
+          aria-expanded="true" aria-controls="collapseBootstrap">
+          <i class="fas fa-fw fa-arrow-down"></i>
+          <span>Social Media</span>
+        </a>
+        <div id="collapseBootstrap" class="collapse" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Media Sosial</h6>
+            <a class="collapse-item" href="api/yutub/video?url=MASUKIN_URL&apikey=MASUKIN_APIKEY">YouTube Video Downloader</a>
+            <a class="collapse-item" href="api/yutub/audio?url=MASUKIN_URL&apikey=MASUKIN_APIKEY">YouTube Audio Downloader</a>
+            <a class="collapse-item" href="api/fbdown/?url=MASUKIN_URL&apikey=MASUKIN_APIKEY">Facebook Downloader</a>
+            <a class="collapse-item" href="api/tiktod/?url=MASUKIN_URL&apikey=MASUKIN_APIKEY">Tiktok Downloader</a>
+            <a class="collapse-item" href="api/tiktod/stalk/?username=MASUKIN_USERNAME&apikey=MASUKIN_APIKEY">Tiktok Stalk</a>
+            <a class="collapse-item" href="api/ig/stalk?username=MASUKIN_USERNAME&apikey=MASUKIN_APIKEY">Instagram Stalk</a>
+            <a class="collapse-item" href="api/yutub/search?video=Ustadz Abdul Somad&apikey=MASUKIN_APIKEY">YouTube Search</a>
+            </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="api.html#" data-toggle="collapse" data-target="#collapseIslamic" aria-expanded="true"
+          aria-controls="collapseIslamic">
+          <i class="fas fa-fw fa-table"></i>
+          <span>Islamic</span>
+        </a>
+        <div id="collapseIslamic" class="collapse" aria-labelledby="headingIslamic" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Islamic</h6>
+            <a class="collapse-item" href="api/hadits?kitab=bukhari&nomor=52&apikey=Apikey_lu_om">Hadits Shahih</a>
+            <a class="collapse-item" href="api/quran?surah=1&ayat=2&apikey=Apikey_lu_om">Al Qur'an</a>
+            <a class="collapse-item" href="api/muslim/tahlil?apikey=Apikey_lu_om">Doa Tahlil</a>
+            <a class="collapse-item" href="api/muslim/wirid?apikey=Apikey_lu_om">Doa Wirid</a>
+            <a class="collapse-item" href="api/muslim/asmaulhusna?apikey=Apikey_lu_om">Asmaul Husna</a>
+            <a class="collapse-item" href="api/muslim/doaharian?apikey=Apikey_lu_om">Doa Harian</a>
+            <a class="collapse-item" href="api/muslim/ayatkursi?apikey=Apikey_lu_om">Ayat Kursi</a>
+            <a class="collapse-item" href="api/kisahnabi?nabi=muhammad&apikey=Apikey_lu_om">Kisah Nabi</a>
+            <a class="collapse-item" href="api/muslim/niatshalat?apikey=Apikey_lu_om">Niat Shalat</a>
+            <a class="collapse-item" href="api/muslim/bacaanshalat?apikey=Apikey_lu_om">Bacaan Shalat</a>
+            <a class="collapse-item" href="api/jadwalshalat?kota=jakartautara&apikey=Apikey_lu_om">Jadwal Shalat</a>
+          </div>
+        </div>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link collapsed" href="api.html#" data-toggle="collapse" data-target="#collapseKodepos" aria-expanded="true"
+          aria-controls="collapseKodepos">
+          <i class="fas fa-fw fa-search"></i>
+          <span>Wallpaper</span>
+        </a>
+        <div id="collapseKodepos" class="collapse" aria-labelledby="headingKodepos" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Wallpaper Api</h6>
+            <a class="collapse-item" href="api/wallpaper/teknologi?apikey=Apikey_lu_om">Wallpaper Teknologi</a>
+            <a class="collapse-item" href="api/wallpaper/programming?apikey=Apikey_lu_om">Wallpaper Programming</a>
+            <a class="collapse-item" href="api/wallpaper/cyberspace?apikey=Apikey_lu_om">Wallpaper CyberSpace</a>
+            <a class="collapse-item" href="api/wallpaper/muslim?apikey=Apikey_lu_om">Wallpaper Muslim</a>
+            <a class="collapse-item" href="api/wallpaper/pegunungan?apikey=Apikey_lu_om">Wallpaper Mountain</a>
+            </div>
+            </div>
+            </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="api.html#" data-toggle="collapse" data-target="#collapseGithub"
+          aria-expanded="true" aria-controls="collapseGithub">
+          <i class="fas fa-fw fa-book"></i>
+          <span>Random API</span>
+        </a>
+        <div id="collapseGithub" class="collapse" aria-labelledby="headingGithub" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Random API</h6>
+            <a class="collapse-item" href="api/randomquote?apikey=MASUKIN_APIKEY">Quotes</a>
+            <a class="collapse-item" href="api/randomquote/muslim?apikey=MASUKIN_APIKEY">Quotes Islami</a>
+            <a class="collapse-item" href="api/quotes/kanye?apikey=MASUKIN_APIKEY">Quotes Kanye</a>
+            <a class="collapse-item" href="api/random/asmaulhusna?apikey=MASUKIN_APIKEY">Asmaul Husna</a>
+            <a class="collapse-item" href="api/random/meme?apikey=MASUKIN_APIKEY">Meme</a>
+            <a class="collapse-item" href="api/random/wallpaper?apikey=MASUKIN_APIKEY">Wallpaper</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="api.html#" data-toggle="collapse" data-target="#collapseMaker"
+          aria-expanded="true" aria-controls="collapseMaker">
+          <i class="fa fa-fw fa-images"></i>
+          <span>Text Maker2D</span>
+        </a>
+        <div id="collapseMaker" class="collapse" aria-labelledby="headingMaker" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Text Maker2D</h6>
+            <a class="collapse-item" href="api/maker?text=Ya Allah Kabulkan DoaKu&apikey=MASUKIN_APIKEY">Maker 1</a>
+            <a class="collapse-item" href="api/maker2?text=Ya Allah Kabulkan DoaKu&apikey=MASUKIN_APIKEY">Maker 2</a>
+            <a class="collapse-item" href="api/maker3?text=Ya Allah Kabulkan DoaKu&apikey=MASUKIN_APIKEY">Maker 3</a>
+            <a class="collapse-item" href="api/maker4?text=Ya Allah Kabulkan DoaKu&apikey=MASUKIN_APIKEY">Maker 4</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="api.html#" data-toggle="collapse" data-target="#collapseMaker3D"
+          aria-expanded="true" aria-controls="collapseMaker3D">
+          <i class="fa fa-fw fa-images"></i>
+          <span>Text Maker3D</span>
+        </a>
+        <div id="collapseMaker3D" class="collapse" aria-labelledby="headingMaker3D" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Text Maker3D </h6>
+            <a class="collapse-item" href="api/maker3d?text=Ya Allah Kabulkan DoaKu&apikey=MASUKIN_APIKEY">Maker 1</a>
+            <a class="collapse-item" href="api/maker3d/no2?text=Ya Allah Kabulkan DoaKu&apikey=MASUKIN_APIKEY">Maker 2</a>
+            <a class="collapse-item" href="api/maker3d/no3?text=Ya Allah Kabulkan DoaKu&apikey=MASUKIN_APIKEY">Maker 3</a>
+            <a class="collapse-item" href="api/maker3d/no4?text=Ya Allah Kabulkan DoaKu&apikey=MASUKIN_APIKEY">Maker 4</a>
+            <a class="collapse-item" href="api/maker3d/no5?text=Ya Allah Kabulkan DoaKu&apikey=MASUKIN_APIKEY">Maker 5</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="api.html#" data-toggle="collapse" data-target="#collapseMakerOther"
+          aria-expanded="true" aria-controls="collapseMakerOther">
+          <i class="fa fa-fw fa-images"></i>
+          <span>TextMaker Other</span>
+        </a>
+        <div id="collapseMakerOther" class="collapse" aria-labelledby="headingMakerOther" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">TextMaker Other</h6>
+            <a class="collapse-item" href="api/maker/special/transformer?text=Transformer&apikey=MASUKIN_APIKEY">Transformer</a>
+            <a class="collapse-item" href="api/maker/special/epep?text=Zhirrr&apikey=MASUKIN_APIKEY">Sertifikat Epep</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="api.html#" data-toggle="collapse" data-target="#collapseText" aria-expanded="true"
+          aria-controls="collapseText">
+          <i class="fas fa-fw fa-table"></i>
+          <span>Photo Oxy</span>
+        </a>
+        <div id="collapseText" class="collapse" aria-labelledby="headingText" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Photo Oxy</h6>
+            <a class="collapse-item" href="api/textmaker?text=halo&text2=hai&theme=glitch&apikey=MASUKIN_APIKEY">Glitch</a>
+            <a class="collapse-item" href="api/textmaker?text=halo&text2=hai&text3=gwganteng&theme=google-suggestion&apikey=MASUKIN_APIKEY">Google Suggestion</a>
+            <a class="collapse-item" href="api/textmaker/game?text=halo&text2=hai&theme=pubg&apikey=MASUKIN_APIKEY">PUBG</a>
+            <a class="collapse-item" href="api/textmaker/game?text=halo&text2=hai&theme=battlefield&apikey=MASUKIN_APIKEY">BattleField</a>
+            <a class="collapse-item" href="api/textmaker/senja?text=Zhirrr&theme=coffee-cup&apikey=MASUKIN_APIKEY">Coffee Cup</a>
+            <a class="collapse-item" href="api/textmaker/senja?text=Zhirrr&theme=coffee-cup2&apikey=MASUKIN_APIKEY">Coffee Cup 2</a>
+            <a class="collapse-item" href="api/textmaker/metallic?text=Zhirrr&theme=neon&apikey=MASUKIN_APIKEY">Neon</a>
+            <a class="collapse-item" href="api/textmaker/metallic?text=Zhirrr&theme=glow&apikey=MASUKIN_APIKEY">Glow</a>
+            <a class="collapse-item" href="api/textmaker/alam?text=Zhirrr&theme=summer&apikey=MASUKIN_APIKEY">Summer</a>
+            <a class="collapse-item" href="api/textmaker/alam?text=Zhirrr&theme=flower&apikey=MASUKIN_APIKEY">Flower</a>
+            <a class="collapse-item" href="api/textmaker/random?text=Zhirrr&theme=text-burn&apikey=MASUKIN_APIKEY">Text Burn</a>
+            <a class="collapse-item" href="api/textmaker/random?text=Zhirrr&theme=art-quote&apikey=MASUKIN_APIKEY">Art Quote</a>
+            <a class="collapse-item" href="api/textmaker/roses?text=Zhirrr&theme=wooden-boarch&apikey=MASUKIN_APIKEY">Wooden Boarch</a>
+            <a class="collapse-item" href="api/textmaker/roses?text=Zhirrr&theme=golden&apikey=MASUKIN_APIKEY">Golden Roses</a>
+            <a class="collapse-item" href="api/textmaker/poter?text=Jepri&theme=harry&apikey=MASUKIN_APIKEY">Harrypoter</a>
+            <a class="collapse-item" href="api/textmaker/poter?text=Jepri&theme=smoke&apikey=MASUKIN_APIKEY">Smoke</a>
+            <a class="collapse-item" href="api/textmaker/langit?text=Jepri&theme=shadow&apikey=MASUKIN_APIKEY">Langit</a>
+            <a class="collapse-item" href="api/textmaker/langit?text=Jepri&theme=write&apikey=MASUKIN_APIKEY">Bunga</a>
+            <a class="collapse-item" href="api/textmaker/love?text=Jepri&theme=lovemaker&apikey=MASUKIN_APIKEY">Lovemaker</a>
+            <a class="collapse-item" href="api/textmaker/love?text=Jepri&theme=logo&apikey=MASUKIN_APIKEY">Logocs</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="api.html#" data-toggle="collapse" data-target="#collapsensfw" aria-expanded="true"
+          aria-controls="collapsensfw">
+          <i class="fas fa-fw fa-table"></i>
+          <span>Nsfw API</span>
+        </a>
+                <div id="collapsensfw" class="collapse" aria-labelledby="headingForm" data-parent="#accordionSidebar">
+                    <div class="py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Nsfw API</h6>
+            <a class="collapse-item" href="api/textmaker?text=halo&text2=hai&theme=glitch&apikey=MASUKIN_APIKEY">Glitch</a>
+            <a class="collapse-item" href="api/textmaker?text=halo&text2=hai&text3=gwganteng&theme=google-suggestion&apikey=MASUKIN_APIKEY">Google Suggestion</a>
+            <a class="collapse-item" href="api/textmaker/game?text=halo&text2=hai&theme=pubg&apikey=MASUKIN_APIKEY">PUBG</a>
+            <a class="collapse-item" href="api/textmaker/game?text=halo&text2=hai&theme=battlefield&apikey=MASUKIN_APIKEY">BattleField</a>
+            <a class="collapse-item" href="api/textmaker/senja?text=Zhirrr&theme=coffee-cup&apikey=MASUKIN_APIKEY">Coffee Cup</a>
+            <a class="collapse-item" href="api/textmaker/senja?text=Zhirrr&theme=coffee-cup2&apikey=MASUKIN_APIKEY">Coffee Cup 2</a>
+            <a class="collapse-item" href="api/textmaker/metallic?text=Zhirrr&theme=neon&apikey=MASUKIN_APIKEY">Neon</a>
+            <a class="collapse-item" href="api/textmaker/metallic?text=Zhirrr&theme=glow&apikey=MASUKIN_APIKEY">Glow</a>
+            <a class="collapse-item" href="api/textmaker/alam?text=Zhirrr&theme=summer&apikey=MASUKIN_APIKEY">Summer</a>
+            <a class="collapse-item" href="api/textmaker/alam?text=Zhirrr&theme=flower&apikey=MASUKIN_APIKEY">Flower</a>
+            <a class="collapse-item" href="api/textmaker/random?text=Zhirrr&theme=text-burn&apikey=MASUKIN_APIKEY">Text Burn</a>
+            <a class="collapse-item" href="api/textmaker/random?text=Zhirrr&theme=art-quote&apikey=MASUKIN_APIKEY">Art Quote</a>
+            <a class="collapse-item" href="api/textmaker/roses?text=Zhirrr&theme=wooden-boarch&apikey=MASUKIN_APIKEY">Wooden Boarch</a>
+            <a class="collapse-item" href="api/textmaker/roses?text=Zhirrr&theme=golden&apikey=MASUKIN_APIKEY">Golden Roses</a>
+            <a class="collapse-item" href="api/textmaker/poter?text=Jepri&theme=harry&apikey=MASUKIN_APIKEY">Harrypoter</a>
+            <a class="collapse-item" href="api/textmaker/poter?text=Jepri&theme=smoke&apikey=MASUKIN_APIKEY">Smoke</a>
+            <a class="collapse-item" href="api/textmaker/langit?text=Jepri&theme=shadow&apikey=MASUKIN_APIKEY">Langit</a>
+            <a class="collapse-item" href="api/textmaker/langit?text=Jepri&theme=write&apikey=MASUKIN_APIKEY">Bunga</a>
+            <a class="collapse-item" href="api/textmaker/love?text=Jepri&theme=lovemaker&apikey=MASUKIN_APIKEY">Lovemaker</a>
+            <a class="collapse-item" href="api/textmaker/love?text=Jepri&theme=logo&apikey=MASUKIN_APIKEY">Logocs</a>
+            </div>
+            </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="api.html#" data-toggle="collapse" data-target="#collapseAnime" aria-expanded="true"
+          aria-controls="collapseAnime">
+          <i class="fas fa-fw fa-bullseye"></i>
+          <span>Anime/Manga API</span>
+        </a>
+        <div id="collapseAnime" class="collapse" aria-labelledby="headingAnime" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Anime/Manga API</h6>
+            <a class="collapse-item" href="api/anime/kusonime?search=planetarian&apikey=Apikey_lu_om">Kusonime</a>
+            <a class="collapse-item" href="api/manga?search=kimetsu no yaiba&apikey=Apikey_lu_om">Manga</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+                <a class="nav-link collapsed" href="api.html#" data-toggle="collapse" data-target="#collapseGames" aria-expanded="true" aria-controls="collapseForm">
+                    <i class="app-menu__icon fa fa-laptop"></i>
+                    <span>Games API</span>
+                </a>
+                <div id="collapseGames" class="collapse" aria-labelledby="headingForm" data-parent="#accordionSidebar">
+                    <div class="py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Games API</h6>
+            <a class="collapse-item" href="/api/kuis/caklontong?apikey=Apikey_lu_om">Cak Lontong</a>
+            <a class="collapse-item" href="/api/kuis/tebakgambar?apikey=Apikey_lu_om">Tebak Gambar</a>
+            </div>
+            </div>
+        </li>
+        <li class="nav-item">
+                <a class="nav-link collapsed" href="api.html#" data-toggle="collapse" data-target="#collapseFilmApik" aria-expanded="true" aria-controls="collapseForm">
+                    <i class="fab fa-fw fa-gratipay"></i>
+                    <span>FilmApik API</span>
+                </a>
+                <div id="collapseFilmApik" class="collapse" aria-labelledby="headingForm" data-parent="#accordionSidebar">
+                    <div class="py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">FilmApik API</h6>
+            <a class="collapse-item" href="/api/filmapik/search?film=avenger&apikey=Apikey_lu_om">Cari Film</a>
+            <a class="collapse-item" href="/api/filmapik/kategori?film=action&apikey=Apikey_lu_om">Cari Kategori Film</a>
+            <a class="collapse-item" href="/api/filmapik/terbaru?apikey=Apikey_lu_om">Film Terbaru</a>
+            <a class="collapse-item" href="/api/filmapik/play?id=142455&apikey=Apikey_lu_om">Play Film</a>
+            </div>
+            </div>
+        </li>
+        <li class="nav-item">
+                <a class="nav-link collapsed" href="api.html#" data-toggle="collapse" data-target="#collapseLk21" aria-expanded="true" aria-controls="collapseForm">
+                    <i class="fas fa-fw fa-leaf"></i>
+                    <span>Lk21 API</span>
+                </a>
+                <div id="collapseLk21" class="collapse" aria-labelledby="headingForm" data-parent="#accordionSidebar">
+                    <div class="py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Lk21 API</h6>
+            <a class="collapse-item" href="/api/lk21/search?film=avenger&apikey=Apikey_lu_om">Cari Film</a>
+            <a class="collapse-item" href="/api/lk21/terbaru?apikey=Apikey_lu_om">Film Terbaru</a>
+            <a class="collapse-item" href="/api/lk21/comingsoon?apikey=Apikey_lu_om">Film Yg Akan Datang</a>
+            <a class="collapse-item" href="/api/lk21/tvseries?apikey=Apikey_lu_om">Series TV</a>
+            <a class="collapse-item" href="/api/lk21/year?tahun=2021&apikey=Apikey_lu_om">Berdasarkan Tahun</a>
+            <a class="collapse-item" href="/api/lk21/country?negara=indonesia&apikey=Apikey_lu_om">Berdasarkan Negara</a>
+            <a class="collapse-item" href="/api/lk21/genre?tipe=action&apikey=Apikey_lu_om">Berdasarkan Genre</a>
+            </div>
+            </div>
+        </li>
+        <li class="nav-item">
+                <a class="nav-link collapsed" href="api.html#" data-toggle="collapse" data-target="#collapseNews" aria-expanded="true" aria-controls="collapseForm">
+                    <i class="fas fa-fw fa-exclamation"></i>
+                    <span>News API</span>
+                </a>
+                <div id="collapseNews" class="collapse" aria-labelledby="headingForm" data-parent="#accordionSidebar">
+                    <div class="py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">News API</h6>
+            <a class="collapse-item" href="api/news">Jenis Berita</a>
+            <a class="collapse-item" href="api/news/cnn?type=JENIS_BERITA&apikey=MASUKKAN_APIKEY">Cnn News</a>
+            <a class="collapse-item" href="api/news/cnbc?type=JENIS_BERITA&apikey=MASUKKAN_APIKEY">CnBc News</a>
+            <a class="collapse-item" href="api/news/republika?type=JENIS_BERITA&apikey=MASUKKAN_APIKEY">Republika News</a>
+            <a class="collapse-item" href="api/news/tempo?type=JENIS_BERITA&apikey=MASUKKAN_APIKEY">Tempo News</a>
+            <a class="collapse-item" href="api/news/antara?type=JENIS_BERITA&apikey=MASUKKAN_APIKEY">Antara News</a>
+            <a class="collapse-item" href="api/news/kumparan?type=JENIS_BERITA&apikey=MASUKKAN_APIKEY">Kumparan News</a>
+            </div>
+            </div>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="api.html#" data-toggle="collapse" data-target="#collapseother" aria-expanded="true"
+          aria-controls="collapseother">
+          <i class="fab fa-fw fa-wpforms"></i>
+          <span>Other API</span>
+        </a>
+        <div id="collapseother" class="collapse" aria-labelledby="headingother" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Other Menu</h6>
+            <a class="collapse-item" href="api/nulis?text=ZahirGanteng&apikey=Apikey_lu_om">Nulis Buku</a>
+            <a class="collapse-item" href="api/infonpm?query=zhirrr-api&hostname=zhirrr&apikey=Apikey_lu_om">Info NPM</a>
+            <a class="collapse-item" href="api/infogempa?apikey=Apikey_lu_om">Info Gempa Terkini</a>
+            <a class="collapse-item" href="api/infocuaca?provinsi=jakarta&apikey=Apikey_lu_om">Info Cuaca Indonesia</a>
+            <a class="collapse-item" href="api/infocuaca/dunia?apikey=Apikey_lu_om">Info Cuaca Dunia</a>
+            <a class="collapse-item" href="api/infocuaca/bandara?apikey=Apikey_lu_om">Info Cuaca Bandara</a>
+            <a class="collapse-item" href="api/infotsunami?apikey=Apikey_lu_om">Info Tsunami</a>
+            <a class="collapse-item" href="api/covidindo?apikey=Apikey_lu_om">Covid Indo</a>
+            <a class="collapse-item" href="api/covidworld?apikey=Apikey_lu_om">Covid World</a>
+            <a class="collapse-item" href="api/short/tiny?url=google.com&apikey=Apikey_lu_om">Short Link</a>
+            <a class="collapse-item" href="api/wikipedia?search=jembatan&apikey=Apikey_lu_om">Wikipedia</a>
+            <a class="collapse-item" href="api/drakorasia?search=tale&apikey=Apikey_lu_om">Drakor Asia</a>
+            <a class="collapse-item" href="api/fakedata?country=en&apikey=Apikey_lu_om">Fake Data</a>
+            <a class="collapse-item" href="api/hilih?kata=aku kan ganteng banget&apikey=Apikey_lu_om">Kata Hilih</a>
+            <a class="collapse-item" href="api/liriklagu?lagu=sayang&apikey=Apikey_lu_om">Lirik Lagu</a>
+            <a class="collapse-item" href="api/chordlagu?lagu=sayang&apikey=Apikey_lu_om">Chord Lagu</a>
+            <a class="collapse-item" href="api/kbbi?kata=pohon&apikey=Apikey_lu_om">KBBI</a>
+            <a class="collapse-item" href="api/kodepos?kota=jakarta&apikey=Apikey_lu_om">Kode Pos</a>
+            <a class="collapse-item" href="api/translate?kata=hi&apikey=Apikey_lu_om">Translate</a>
+            <a class="collapse-item" href="api/gabut?apikey=Apikey_lu_om">Gabut</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+<a class="nav-link collapsed" href="api.html#" data-toggle="collapse" data-target="#collapsewhatsapp" aria-expanded="true" aria-controls="collapsewhatsapp">
+<i class="fab fa-fw fa-whatsapp"></i>
+<span>Testi WhatsappBot</span>
+</a>
+<div id="collapsewhatsapp" class="collapse" aria-labelledby="headingwhatsapp" data-parent="#accordionSidebar">
+<div class="bg-white py-2 collapse-inner rounded">
+<h6 class="collapse-header">WhatsApp</h6>
+<a class="collapse-item" href="https://wa.me/+12347140010">WhatsApp</a>
+</div>
+</div>
+</li>
+<hr class="sidebar-divider">
+<div class="version" id="version-ruangadmin"></div>
+</ul>
+<div id="content-wrapper" class="d-flex flex-column">
+<div id="content">
+    <!-- Sidebar -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <div id="content">
+       <!-- TopBar -->
+        <nav class="navbar navbar-expand navbar-light bg-navbar topbar mb-4 static-top bg-info">
+          <button id="sidebarToggleTop" class="btn btn-link rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+          <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/jepribarus">
+                    <i class="fab fa-fw fa-github"></i>
+                    <span>Github</span>
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="https://wa.me/12347590003">
+                    <i class="fab fa-fw fa-whatsapp"></i>
+                    <span>Whatsapp</span>
+                </a>
+            </li>
+            <div class="topbar-divider d-none d-sm-block"></div>
+<li class="nav-item dropdown no-arrow mx-1">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="api.html#" id="alertsDropdown" role="button">
+<i class="fas fa-bell fa-fw"></i>
+<span class="badge badge-danger badge-counter">2</span>
+</a>
+<div aria-labelledby="alertsDropdown" class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in">
+<h6 class="dropdown-header">
+                  Notifikasi
+                </h6>
+<a class="dropdown-item d-flex align-items-center">
+<div class="mr-3">
+<div class="icon-circle bg-primary">
+<i class="fas fa-file-alt text-white"></i>
+</div>
+</div>
+<div>
+<div class="small text-gray-500">13 April, 2021</div>
+Kamu kenapa jomblo Um ?
+</div>
+</a>
+<a class="dropdown-item d-flex align-items-center">
+<div class="mr-3">
+<div class="icon-circle bg-warning">
+<i class="fas fa-exclamation-triangle text-white"></i>
+</div>
+</div>
+<div>
+<div class="small text-gray-500">15 April, 2021</div>
+Sudah Mandi Atau Belum Um ?
+</div>
+</a>
+<!-- <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a> -->
+</div>
+</li>
+            <div class="topbar-divider d-none d-sm-block"></div>
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="https://i.ibb.co/4SYLC0D/efed688e167da77cc9d2660ed292517e.jpg" id="userDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <img class="img-profile rounded-circle" src="https://i.ibb.co/4SYLC0D/efed688e167da77cc9d2660ed292517e.jpg" style="max-width: 85px">
+                <span class="ml-2 d-none d-lg-inline text-white small">Maman Ketoprak</span>
+              </a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+    <!-- Topbar -->
+    	<marquee bgcolor="”red”"> Jangan Lupa Tersenyum Hari Ini~Jepri Barus</marquee>
+<div class="col-xl-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="row align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-uppercase mb-1">Info Developer</div>
+                      <br>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">JEPRI BARUS</div>
+                      <div class="mt-2 mb-0 text-muted text-xs">
+                        <span class="text-success mr-2"> Anak Bangsat</span>
+  </div>
+  <br>
+  <div class="col-xl-3 col-md-6 mb-4">
+  <div class="card h-100">
+  <div class="card-body">
+  <div class="row align-items-center">
+  <div class="col mr-2">
+  <div class="text-xs font-weight-bold text-uppercase mb-1">Info</div>
+  <div class="h5 mb-0 font-weight-bold text-gray-800">Menuju Ramadhan</div>
+  <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 
+  <b id="time"></b><br></span>
+  <div class="mt-2 mb-0 text-muted text-xs">
+  </div>
+  </div>
+  <div class="col-auto">
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+<div class="col-xl-3 col-md-6 mb-4">
+<div class="card h-100">
+<div class="card-body">
+<div class="row no-gutters align-items-center">
+<div class="col mr-2">
+<h6><br>Tidak Punya Apikey ??<br><b class="font-weight-bold">Chat Bot untuk membuat<br>Api Gratis <a href="https://wa.me/+12347140010?text=/generatekey">Whatsapp Bot</a>
+<marquee>
+<h6>Made By: Jepri Barus</h6>
+</marquee>
+</div>
+</div>
+<div class="mt-2 mb-0 text-muted text-xs">
+
+</span>
+</div>
+</div>
+<div class="col-auto">
+</div>
+</div>
+</div>
+</div>
+</div>
+    <form action="/api">
+      <div class="col-lg-6">
+       <div class="card mb-4">
+        <div class="card-header py-3">
+         <div class="card-body">
+          <h6 class="animated">Check Your Apikey</h6>
+           <input type="text" class="form-control" placeholder="Your apikey" name="apikey" required>
+            <button class="btn btn-danger btn-icon-split">
+             <span class="icon text-white-50">
+              <i class="fas fa-check"></i>
+             </span>
+             <span class="text">Check</span>
+            </button>
+         </div>
+        </div>
+       </div>
+       <br>
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright &copy; 2021 - Developed By
+              <b><a href="https://wa.me/12347590003" target="_blank">JepriBarus</a></b>
+            </span>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer -->
+    </div>
+  </div>
+  <!-- Scroll to top -->
+  <a class="scroll-to-top rounded" href="api.html#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+   <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="js/ruang-admin.js"></script>
+  <script src="vendor/chart.js/Chart.min.js"></script>
+  <script src="js/demo/chart-area-demo.js"></script>  
+</body>
+<!--- Mau colong ya bang? ambil aja --->
+<script type="text/javascript">document.write('\u003C\u0073\u0063\u0072\u0069\u0070\u0074\u003E\u000A\u000A\u0053\u0077\u0061\u006C\u002E\u0066\u0069\u0072\u0065\u0028\u007B\u000A\u000A\u0020\u0020\u0074\u0069\u0074\u006C\u0065\u003A\u0020\u0027\u0057\u0045\u004C\u0043\u004F\u004D\u0045\u0027\u002C\u000A\u000A\u0020\u0020\u0074\u0065\u0078\u0074\u003A\u0020\u0060\u0057\u0065\u006C\u0063\u006F\u006D\u0065\u0020\u0053\u0075\u0068\u0075\u002C\u0020\u0053\u0069\u006C\u0061\u0068\u006B\u0061\u006E\u0020\u0044\u0069\u0070\u0061\u006B\u0065\u002C\u0020\u004A\u0061\u006E\u0067\u0061\u006E\u0020\u0053\u0070\u0061\u006D\u0020\u0059\u0061\u0060\u002C\u000A\u000A\u0020\u0020\u0069\u006D\u0061\u0067\u0065\u0055\u0072\u006C\u003A\u0020\u0027\u0068\u0074\u0074\u0070\u0073\u003A\u002F\u002F\u0069\u002E\u0069\u0062\u0062\u002E\u0063\u006F\u002F\u0064\u0074\u0038\u0072\u006B\u0079\u0052\u002F\u0049\u004D\u0047\u002D\u0032\u0030\u0032\u0031\u0030\u0033\u0033\u0031\u002D\u0057\u0041\u0030\u0030\u0030\u0030\u002E\u006A\u0070\u0067\u0027\u002C\u000A\u000A\u0020\u0020\u0069\u006D\u0061\u0067\u0065\u0057\u0069\u0064\u0074\u0068\u003A\u0020\u0033\u0030\u0030\u002C\u000A\u000A\u0020\u0020\u0069\u006D\u0061\u0067\u0065\u0048\u0065\u0069\u0067\u0068\u0074\u003A\u0020\u0033\u0030\u0030\u002C\u000A\u000A\u0020\u0020\u0069\u006D\u0061\u0067\u0065\u0041\u006C\u0074\u003A\u0020\u0027\u0045\u006C\u0061\u0069\u006E\u0061\u0020\u0042\u0065\u0073\u0074\u0020\u0057\u0061\u0069\u0066\u0075\u0020\u003A\u0056\u0027\u000A\u000A\u007D\u0029\u000A\u000A\u002E\u0074\u0068\u0065\u006E\u0028\u0028\u0076\u0061\u006C\u0075\u0065\u0029\u0020\u003D\u003E\u0020\u007B\u0020\u0053\u0077\u0061\u006C\u002E\u0066\u0069\u0072\u0065\u0028\u0022\u0049\u004E\u0046\u004F\u0022\u002C\u0020\u0022\u0041\u0070\u0069\u006E\u0079\u0061\u0020\u0048\u0061\u0073\u0069\u006C\u0020\u004E\u0065\u006D\u0062\u0061\u006B\u0020\u0059\u0061\u003A\u0076\u0020\u004A\u0061\u006E\u0067\u0061\u006E\u0020\u0044\u0069\u0062\u0075\u006C\u006C\u0079\u0020\u004F\u006D\u0020\u004D\u0061\u0073\u0069\u0020\u0050\u0065\u006D\u0075\u006C\u0061\u003A\u0029\u0022\u002C\u0020\u0022\u0022\u0029\u003B\u007D\u0029\u003B\u000A\u000A\u003C\u002F\u0073\u0063\u0072\u0069\u0070\u0074\u003E');</script>
+<script type="text/javascript">document.write('\u003C\u0073\u0063\u0072\u0069\u0070\u0074\u003E\u000A\u0020\u0020\u0066\u0075\u006E\u0063\u0074\u0069\u006F\u006E\u0020\u0067\u0065\u0074\u0076\u0069\u0073\u0069\u0074\u006F\u0072\u0028\u0029\u007B\u000A\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0076\u0061\u0072\u0020\u0078\u0068\u0072\u0020\u003D\u0020\u006E\u0065\u0077\u0020\u0058\u004D\u004C\u0048\u0074\u0074\u0070\u0052\u0065\u0071\u0075\u0065\u0073\u0074\u0028\u0029\u003B\u000A\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0076\u0061\u0072\u0020\u0075\u0072\u006C\u0020\u003D\u0020\u0027\u0068\u0074\u0074\u0070\u0073\u003A\u002F\u002F\u0061\u0070\u0069\u002E\u0063\u006F\u0075\u006E\u0074\u0061\u0070\u0069\u002E\u0078\u0079\u007A\u002F\u0068\u0069\u0074\u002F\u0064\u0061\u0070\u0075\u0068\u0079\u002D\u0061\u0070\u0069\u002E\u0068\u0065\u0072\u006F\u006B\u0075\u0061\u0070\u0070\u002E\u0063\u006F\u006D\u002F\u0076\u0069\u0073\u0069\u0074\u0073\u0027\u003B\u000A\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0078\u0068\u0072\u002E\u006F\u006E\u006C\u006F\u0061\u0064\u0065\u006E\u0064\u0020\u003D\u0020\u0066\u0075\u006E\u0063\u0074\u0069\u006F\u006E\u0028\u0029\u007B\u000A\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0064\u0061\u0074\u0061\u0020\u003D\u0020\u004A\u0053\u004F\u004E\u002E\u0070\u0061\u0072\u0073\u0065\u0028\u0074\u0068\u0069\u0073\u002E\u0072\u0065\u0073\u0070\u006F\u006E\u0073\u0065\u0054\u0065\u0078\u0074\u0029\u003B\u000A\u0020\u0020\u0064\u006F\u0063\u0075\u006D\u0065\u006E\u0074\u002E\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064\u0028\u0022\u0076\u0069\u0073\u0069\u0074\u006F\u0072\u0022\u0029\u002E\u0074\u0065\u0078\u0074\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u0020\u003D\u0020\u0064\u0061\u0074\u0061\u002E\u0076\u0061\u006C\u0075\u0065\u000A\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u007D\u003B\u000A\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0078\u0068\u0072\u002E\u006F\u0070\u0065\u006E\u0028\u0022\u0047\u0045\u0054\u0022\u002C\u0020\u0075\u0072\u006C\u002C\u0020\u0074\u0072\u0075\u0065\u0029\u003B\u000A\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0078\u0068\u0072\u002E\u0073\u0065\u006E\u0064\u0028\u0029\u003B\u000A\u0020\u0020\u007D\u000A\u0020\u0020\u000A\u003C\u002F\u0073\u0063\u0072\u0069\u0070\u0074\u003E');</script>
+<script type="text/javascript">document.write('\u003C\u0073\u0063\u0072\u0069\u0070\u0074\u003E\u000A\u0009\u0009\u0009\u0009\u002F\u002F\u0020\u0041\u006B\u0068\u0069\u0072\u0020\u0048\u0069\u0074\u0075\u006E\u0067\u0061\u006E\u0020\u004D\u0075\u006E\u0064\u0075\u0072\u000A\u0009\u0009\u0009\u0009\u0076\u0061\u0072\u0020\u0063\u006F\u0075\u006E\u0074\u0044\u006F\u0077\u006E\u0044\u0061\u0074\u0065\u0020\u003D\u0020\u006E\u0065\u0077\u0020\u0044\u0061\u0074\u0065\u0028\u0022\u0041\u0070\u0072\u0020\u0031\u0032\u002C\u0020\u0032\u0030\u0032\u0031\u0020\u0030\u0030\u003A\u0030\u0030\u003A\u0030\u0030\u0022\u0029\u002E\u0067\u0065\u0074\u0054\u0069\u006D\u0065\u0028\u0029\u003B\u000A\u000A\u0009\u0009\u0009\u0009\u002F\u002F\u0020\u0055\u0070\u0064\u0061\u0074\u0065\u0020\u0048\u0069\u0074\u0075\u006E\u0067\u0061\u006E\u0020\u004D\u0075\u006E\u0064\u0075\u0072\u0020\u0053\u0065\u0074\u0069\u0061\u0070\u0020\u0031\u0020\u0044\u0065\u0074\u0069\u006B\u000A\u0009\u0009\u0009\u0009\u0076\u0061\u0072\u0020\u0078\u0020\u003D\u0020\u0073\u0065\u0074\u0049\u006E\u0074\u0065\u0072\u0076\u0061\u006C\u0028\u0066\u0075\u006E\u0063\u0074\u0069\u006F\u006E\u0028\u0029\u0020\u007B\u000A\u000A\u0009\u0009\u0009\u0009\u0009\u002F\u002F\u0020\u004D\u0065\u006E\u0067\u0061\u006D\u0062\u0069\u006C\u0020\u0054\u0061\u006E\u0067\u0067\u0061\u006C\u0020\u0044\u0061\u006E\u0020\u0057\u0061\u006B\u0074\u0075\u000A\u0009\u0009\u0009\u0009\u0009\u0076\u0061\u0072\u0020\u006E\u006F\u0077\u0020\u003D\u0020\u006E\u0065\u0077\u0020\u0044\u0061\u0074\u0065\u0028\u0029\u002E\u0067\u0065\u0074\u0054\u0069\u006D\u0065\u0028\u0029\u003B\u000A\u000A\u0009\u0009\u0009\u0009\u0009\u002F\u002F\u0020\u0046\u0069\u006E\u0064\u0020\u0074\u0068\u0065\u0020\u0064\u0069\u0073\u0074\u0061\u006E\u0063\u0065\u0020\u0062\u0065\u0074\u0077\u0065\u0065\u006E\u0020\u006E\u006F\u0077\u0020\u0061\u006E\u0064\u0020\u0074\u0068\u0065\u0020\u0063\u006F\u0075\u006E\u0074\u0020\u0064\u006F\u0077\u006E\u0020\u0064\u0061\u0074\u0065\u000A\u0009\u0009\u0009\u0009\u0009\u0076\u0061\u0072\u0020\u0064\u0069\u0073\u0074\u0061\u006E\u0063\u0065\u0020\u003D\u0020\u0063\u006F\u0075\u006E\u0074\u0044\u006F\u0077\u006E\u0044\u0061\u0074\u0065\u0020\u002D\u0020\u006E\u006F\u0077\u003B\u000A\u000A\u0009\u0009\u0009\u0009\u0009\u002F\u002F\u0020\u004B\u0061\u006C\u006B\u0075\u006C\u0061\u0074\u006F\u0072\u0020\u0057\u0061\u006B\u0074\u0075\u0020\u0048\u0061\u0072\u0069\u002C\u0020\u004A\u0061\u006D\u002C\u0020\u004D\u0065\u006E\u0069\u0074\u002C\u0020\u0044\u0065\u0074\u0069\u006B\u0020\u000A\u0009\u0009\u0009\u0009\u0009\u0076\u0061\u0072\u0020\u0064\u0061\u0079\u0073\u0020\u003D\u0020\u004D\u0061\u0074\u0068\u002E\u0066\u006C\u006F\u006F\u0072\u0028\u0064\u0069\u0073\u0074\u0061\u006E\u0063\u0065\u0020\u002F\u0020\u0028\u0031\u0030\u0030\u0030\u0020\u002A\u0020\u0036\u0030\u0020\u002A\u0020\u0036\u0030\u0020\u002A\u0020\u0032\u0034\u0029\u0029\u003B\u000A\u0009\u0009\u0009\u0009\u0009\u0076\u0061\u0072\u0020\u0068\u006F\u0075\u0072\u0073\u0020\u003D\u0020\u004D\u0061\u0074\u0068\u002E\u0066\u006C\u006F\u006F\u0072\u0028\u0028\u0064\u0069\u0073\u0074\u0061\u006E\u0063\u0065\u0020\u0025\u0020\u0028\u0031\u0030\u0030\u0030\u0020\u002A\u0020\u0036\u0030\u0020\u002A\u0020\u0036\u0030\u0020\u002A\u0020\u0032\u0034\u0029\u0029\u0020\u002F\u0020\u0028\u0031\u0030\u0030\u0030\u0020\u002A\u0020\u0036\u0030\u0020\u002A\u0020\u0036\u0030\u0029\u0029\u003B\u000A\u0009\u0009\u0009\u0009\u0009\u0076\u0061\u0072\u0020\u006D\u0069\u006E\u0075\u0074\u0065\u0073\u0020\u003D\u0020\u004D\u0061\u0074\u0068\u002E\u0066\u006C\u006F\u006F\u0072\u0028\u0028\u0064\u0069\u0073\u0074\u0061\u006E\u0063\u0065\u0020\u0025\u0020\u0028\u0031\u0030\u0030\u0030\u0020\u002A\u0020\u0036\u0030\u0020\u002A\u0020\u0036\u0030\u0029\u0029\u0020\u002F\u0020\u0028\u0031\u0030\u0030\u0030\u0020\u002A\u0020\u0036\u0030\u0029\u0029\u003B\u000A\u0009\u0009\u0009\u0009\u0009\u0076\u0061\u0072\u0020\u0073\u0065\u0063\u006F\u006E\u0064\u0073\u0020\u003D\u0020\u004D\u0061\u0074\u0068\u002E\u0066\u006C\u006F\u006F\u0072\u0028\u0028\u0064\u0069\u0073\u0074\u0061\u006E\u0063\u0065\u0020\u0025\u0020\u0028\u0031\u0030\u0030\u0030\u0020\u002A\u0020\u0036\u0030\u0029\u0029\u0020\u002F\u0020\u0031\u0030\u0030\u0030\u0029\u003B\u000A\u000A\u0009\u0009\u0009\u0009\u0009\u002F\u002F\u0020\u004D\u0065\u006E\u0061\u006D\u0070\u0069\u006C\u006B\u0061\u006E\u0020\u0048\u0061\u0073\u0069\u006C\u0020\u0044\u0069\u0020\u0044\u0061\u006C\u0061\u006D\u0020\u0065\u006C\u0065\u006D\u0065\u006E\u0074\u0020\u004D\u0065\u006E\u0067\u0067\u0075\u006E\u0061\u006B\u0061\u006E\u0020\u0069\u0064\u003D\u0022\u0074\u0069\u006D\u0065\u0022\u000A\u0009\u0009\u0009\u0009\u0009\u0064\u006F\u0063\u0075\u006D\u0065\u006E\u0074\u002E\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064\u0028\u0022\u0074\u0069\u006D\u0065\u0022\u0029\u002E\u0069\u006E\u006E\u0065\u0072\u0048\u0054\u004D\u004C\u0020\u003D\u0020\u0064\u0061\u0079\u0073\u0020\u002B\u0020\u0022\u0048\u0061\u0072\u0069\u0020\u0020\u0022\u0020\u002B\u0020\u0068\u006F\u0075\u0072\u0073\u0020\u002B\u0020\u0022\u004A\u0061\u006D\u0020\u0022\u0020\u002B\u0020\u006D\u0069\u006E\u0075\u0074\u0065\u0073\u0020\u002B\u0020\u0022\u004D\u0065\u006E\u0069\u0074\u0020\u0022\u0020\u002B\u0020\u0073\u0065\u0063\u006F\u006E\u0064\u0073\u0020\u002B\u0020\u0022\u0044\u0065\u0074\u0069\u006B\u0020\u0022\u003B\u000A\u000A\u0009\u0009\u0009\u0009\u0009\u002F\u002F\u0020\u004B\u0065\u0074\u0069\u006B\u0061\u0020\u0063\u006F\u0075\u006E\u0074\u0064\u006F\u0077\u006E\u0020\u0074\u0069\u006D\u0065\u0072\u0020\u0073\u0075\u0064\u0061\u0068\u0020\u0062\u0065\u0072\u0061\u006B\u0068\u0069\u0072\u0020\u004D\u0061\u006B\u0061\u0020\u0054\u0075\u006C\u0069\u0073\u0061\u006E\u0020\u0042\u0065\u0072\u0061\u006B\u0068\u0069\u0072\u000A\u0009\u0009\u0009\u0009\u0009\u0069\u0066\u0020\u0028\u0064\u0069\u0073\u0074\u0061\u006E\u0063\u0065\u0020\u003C\u0020\u0030\u0029\u0020\u007B\u000A\u0009\u0009\u0009\u0009\u0009\u0009\u0063\u006C\u0065\u0061\u0072\u0049\u006E\u0074\u0065\u0072\u0076\u0061\u006C\u0028\u0078\u0029\u003B\u000A\u0009\u0009\u0009\u0009\u0009\u0009\u0064\u006F\u0063\u0075\u006D\u0065\u006E\u0074\u002E\u0067\u0065\u0074\u0045\u006C\u0065\u006D\u0065\u006E\u0074\u0042\u0079\u0049\u0064\u0028\u0022\u0074\u0069\u006D\u0065\u0022\u0029\u002E\u0069\u006E\u006E\u0065\u0072\u0048\u0054\u004D\u004C\u0020\u003D\u0020\u0022\u0042\u0065\u0072\u0061\u006B\u0068\u0069\u0072\u0022\u003B\u000A\u0009\u0009\u0009\u0009\u0009\u007D\u000A\u0009\u0009\u0009\u0009\u007D\u002C\u0020\u0031\u0030\u0030\u0030\u0029\u003B\u000A\u0009\u0009\u0009\u003C\u002F\u0073\u0063\u0072\u0069\u0070\u0074\u003E');</script>
+<script type="text/javascript">document.write('\u003C\u0073\u0063\u0072\u0069\u0070\u0074\u003E\u000A\u0063\u006F\u006E\u0073\u0074\u0020\u0074\u0079\u0070\u0065\u0064\u0054\u0065\u0078\u0074\u0053\u0070\u0061\u006E\u003D\u0064\u006F\u0063\u0075\u006D\u0065\u006E\u0074\u002E\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006C\u0065\u0063\u0074\u006F\u0072\u0028\u0022\u002E\u0074\u0079\u0070\u0065\u0064\u002D\u0074\u0065\u0078\u0074\u0022\u0029\u003B\u0063\u006F\u006E\u0073\u0074\u0020\u0074\u0065\u0078\u0074\u0041\u0072\u0072\u0061\u0079\u003D\u005B\u0022\u0064\u0061\u0070\u0070\u0061\u0075\u0068\u0075\u0079\u0022\u005D\u003B\u0063\u006F\u006E\u0073\u0074\u0020\u0074\u0079\u0070\u0069\u006E\u0067\u0044\u0065\u006C\u0061\u0079\u003D\u0035\u0030\u003B\u0063\u006F\u006E\u0073\u0074\u0020\u0065\u0072\u0061\u0073\u0069\u006E\u0067\u0044\u0065\u006C\u0061\u0079\u003D\u0031\u0030\u003B\u0063\u006F\u006E\u0073\u0074\u0020\u006E\u0065\u0077\u0054\u0065\u0078\u0074\u0044\u0065\u006C\u0061\u0079\u003D\u0033\u0030\u0030\u0030\u003B\u006C\u0065\u0074\u0020\u0074\u0065\u0078\u0074\u0041\u0072\u0072\u0061\u0079\u0049\u006E\u0064\u0065\u0078\u003D\u0030\u003B\u006C\u0065\u0074\u0020\u0063\u0068\u0061\u0072\u0049\u006E\u0064\u0065\u0078\u003D\u0030\u003B\u0066\u0075\u006E\u0063\u0074\u0069\u006F\u006E\u0020\u0074\u0079\u0070\u0065\u0028\u0029\u007B\u0069\u0066\u0028\u0063\u0068\u0061\u0072\u0049\u006E\u0064\u0065\u0078\u003C\u0074\u0065\u0078\u0074\u0041\u0072\u0072\u0061\u0079\u005B\u0074\u0065\u0078\u0074\u0041\u0072\u0072\u0061\u0079\u0049\u006E\u0064\u0065\u0078\u005D\u002E\u006C\u0065\u006E\u0067\u0074\u0068\u0029\u007B\u0074\u0079\u0070\u0065\u0064\u0054\u0065\u0078\u0074\u0053\u0070\u0061\u006E\u002E\u0074\u0065\u0078\u0074\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002B\u003D\u0074\u0065\u0078\u0074\u0041\u0072\u0072\u0061\u0079\u005B\u0074\u0065\u0078\u0074\u0041\u0072\u0072\u0061\u0079\u0049\u006E\u0064\u0065\u0078\u005D\u002E\u0063\u0068\u0061\u0072\u0041\u0074\u0028\u0063\u0068\u0061\u0072\u0049\u006E\u0064\u0065\u0078\u0029\u003B\u0063\u0068\u0061\u0072\u0049\u006E\u0064\u0065\u0078\u002B\u002B\u003B\u0073\u0065\u0074\u0054\u0069\u006D\u0065\u006F\u0075\u0074\u0028\u0074\u0079\u0070\u0065\u002C\u0074\u0079\u0070\u0069\u006E\u0067\u0044\u0065\u006C\u0061\u0079\u0029\u003B\u007D\u0065\u006C\u0073\u0065\u007B\u0073\u0065\u0074\u0054\u0069\u006D\u0065\u006F\u0075\u0074\u0028\u0065\u0072\u0061\u0073\u0065\u002C\u006E\u0065\u0077\u0054\u0065\u0078\u0074\u0044\u0065\u006C\u0061\u0079\u0029\u007D\u007D\u000A\u0066\u0075\u006E\u0063\u0074\u0069\u006F\u006E\u0020\u0065\u0072\u0061\u0073\u0065\u0028\u0029\u007B\u0069\u0066\u0028\u0063\u0068\u0061\u0072\u0049\u006E\u0064\u0065\u0078\u003E\u0030\u0029\u007B\u0074\u0079\u0070\u0065\u0064\u0054\u0065\u0078\u0074\u0053\u0070\u0061\u006E\u002E\u0074\u0065\u0078\u0074\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u003D\u0074\u0065\u0078\u0074\u0041\u0072\u0072\u0061\u0079\u005B\u0074\u0065\u0078\u0074\u0041\u0072\u0072\u0061\u0079\u0049\u006E\u0064\u0065\u0078\u005D\u002E\u0073\u0075\u0062\u0073\u0074\u0072\u0069\u006E\u0067\u0028\u0030\u002C\u0063\u0068\u0061\u0072\u0049\u006E\u0064\u0065\u0078\u002D\u0031\u0029\u003B\u0063\u0068\u0061\u0072\u0049\u006E\u0064\u0065\u0078\u002D\u002D\u003B\u0073\u0065\u0074\u0054\u0069\u006D\u0065\u006F\u0075\u0074\u0028\u0065\u0072\u0061\u0073\u0065\u002C\u0065\u0072\u0061\u0073\u0069\u006E\u0067\u0044\u0065\u006C\u0061\u0079\u0029\u003B\u007D\u0065\u006C\u0073\u0065\u007B\u0074\u0065\u0078\u0074\u0041\u0072\u0072\u0061\u0079\u0049\u006E\u0064\u0065\u0078\u002B\u002B\u003B\u0069\u0066\u0028\u0074\u0065\u0078\u0074\u0041\u0072\u0072\u0061\u0079\u0049\u006E\u0064\u0065\u0078\u003E\u003D\u0074\u0065\u0078\u0074\u0041\u0072\u0072\u0061\u0079\u002E\u006C\u0065\u006E\u0067\u0074\u0068\u0029\u0074\u0065\u0078\u0074\u0041\u0072\u0072\u0061\u0079\u0049\u006E\u0064\u0065\u0078\u003D\u0030\u003B\u0073\u0065\u0074\u0054\u0069\u006D\u0065\u006F\u0075\u0074\u0028\u0074\u0079\u0070\u0065\u002C\u0074\u0079\u0070\u0069\u006E\u0067\u0044\u0065\u006C\u0061\u0079\u002B\u0031\u0031\u0030\u0030\u0029\u003B\u007D\u007D\u000A\u0064\u006F\u0063\u0075\u006D\u0065\u006E\u0074\u002E\u0061\u0064\u0064\u0045\u0076\u0065\u006E\u0074\u004C\u0069\u0073\u0074\u0065\u006E\u0065\u0072\u0028\u0022\u0044\u004F\u004D\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u004C\u006F\u0061\u0064\u0065\u0064\u0022\u002C\u0066\u0075\u006E\u0063\u0074\u0069\u006F\u006E\u0028\u0029\u007B\u0073\u0065\u0074\u0054\u0069\u006D\u0065\u006F\u0075\u0074\u0028\u0074\u0079\u0070\u0065\u002C\u006E\u0065\u0077\u0054\u0065\u0078\u0074\u0044\u0065\u006C\u0061\u0079\u002B\u0032\u0035\u0030\u0029\u003B\u007D\u0029\u003B\u000A\u003C\u002F\u0073\u0063\u0072\u0069\u0070\u0074\u003E');</script>
+<iframe allow="autoplay" width="0" height="0" src="https://g.top4top.io/m_1917ekv6o0.mp3" frameborder="0" allowfullscreen></iframe>
+</html>
